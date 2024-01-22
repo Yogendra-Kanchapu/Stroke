@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # To load the model
-model = load('decision_tree_model.joblib')
+model = load('./decision_tree_model.joblib')
 
 # Function to predict stroke based on input features
 def predict_stroke(features):
